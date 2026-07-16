@@ -1,9 +1,7 @@
+
 from rank_bm25 import BM25Okapi
 
-from ir_engine import load_preprocessed_data
-from rank_bm25 import BM25Okapi
-
-from ir_engine import load_preprocessed_data
+from src.ir_engine import load_preprocessed_data
 
 
 # ==========================================================

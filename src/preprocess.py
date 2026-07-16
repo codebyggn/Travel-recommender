@@ -8,7 +8,10 @@ import pandas as pd
 # PATH
 # ==========================================================
 
-JSON_PATH = Path("../data/raw/dataset1/india_tourism_dataset.json")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+JSON_PATH = BASE_DIR / "data" / "raw" / "dataset1" / "india_tourism_dataset.json"
 
 
 # ==========================================================

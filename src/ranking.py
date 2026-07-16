@@ -1,9 +1,9 @@
 import pandas as pd
 
-from ir_engine import load_preprocessed_data
+from src.ir_engine import load_preprocessed_data
 
-from tfidf_engine import build_tfidf, search as tfidf_search
-from bm25_engine import build_bm25, search as bm25_search
+from src.tfidf_engine import build_tfidf, search as tfidf_search
+from src.bm25_engine import build_bm25, search as bm25_search
 
 def load_models():
 

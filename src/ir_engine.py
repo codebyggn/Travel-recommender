@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from preprocess import (
+from src.preprocess import (
     load_json,
     create_dataframe,
     select_columns,
@@ -92,6 +92,6 @@ def main():
         for word, destinations in results.items():
 
             print(f"{word} -> {destinations}")
-            
+
 if __name__ == "__main__":
     main()
