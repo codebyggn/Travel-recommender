@@ -100,3 +100,115 @@ travel-recommender/
 ├── requirements.txt
 └── README.md
 ```
+---
+
+# ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/codebyggn/travel-recommender.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd travel-recommender
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Running the Application
+
+Launch the Streamlit application using:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+The application will start at:
+
+```
+http://localhost:8501
+```
+
+---
+
+# 🔄 System Workflow
+
+```text
+                  User Query
+                      │
+                      ▼
+             Text Preprocessing
+                      │
+                      ▼
+          TF-IDF Search + BM25 Search
+                      │
+                      ▼
+              Hybrid Score Ranking
+                      │
+                      ▼
+          Top Relevant Destinations
+                      │
+          ┌───────────┴───────────┐
+          ▼                       ▼
+ Analytics Dashboard      Similar Destination
+                             Recommendation
+```
+
+---
+
+# 📈 Future Enhancements
+
+- Semantic Search using Sentence Transformers
+- Real-time travel information APIs
+- Interactive map visualization
+- Personalized user profiles
+- Image-based destination search
+- Voice-enabled destination search
+- User authentication and saved trips
+
+---
+
+# 🎯 Learning Outcomes
+
+This project demonstrates practical implementation of:
+
+- Information Retrieval (IR)
+- Machine Learning (ML)
+- Natural Language Processing (NLP)
+- Hybrid Search Systems
+- Content-Based Recommendation Systems
+- Data Preprocessing
+- Interactive Web Application Development with Streamlit
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+Feel free to fork this repository and submit a Pull Request.
+
+---
+
+# 📜 License
+
+This project is intended for educational and academic purposes.
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a star!
+
+Made with ❤️ using Python, Streamlit, Information Retrieval and Machine Learning.
+
+</div>
