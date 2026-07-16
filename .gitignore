@@ -1,12 +1,11 @@
+# Virtual Environment
+.venv/
+venv/
+
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-
-# Virtual environments
-venv/
-.venv/
-env/
 
 # IDE
 .idea/

@@ -12,6 +12,10 @@ The system helps users discover travel destinations across India by combining:
 
 ---
 
+## 🌐 Live Demo
+
+🚀 https://smart-travel-irml.streamlit.app
+
 ## 📸 Application Preview
 
 ### 🏠 Home
